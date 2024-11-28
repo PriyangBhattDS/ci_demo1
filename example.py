@@ -13,6 +13,7 @@ def mul(a, b):
 
 greet("Anil")
 
+if __name__ == "__main__":
 
-print(add(3, 5))
-print(mul(3, 5))
+    print(add(3, 5))
+    print(mul(3, 5))
