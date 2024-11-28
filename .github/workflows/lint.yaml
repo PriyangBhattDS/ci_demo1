@@ -35,6 +35,7 @@ jobs:
           flake8 example.py
    
   unit-test:
+    needs: lint
     runs-on: ubuntu-latest
     steps:
       - name: code checkout
